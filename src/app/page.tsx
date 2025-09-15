@@ -14,7 +14,7 @@ export default function Home() {
     <SiteThemeProvider theme={{ styleVariant: "futuristicAndOutOfBox", colorTemplate: 1, textAnimation: "slide" }}>
       <div id="nav" data-section="nav">
         <NavbarStyleApple
-          brandName="NovaSuite"
+          brandName="Subhadeep"
           navItems={[
             { name: 'Hero', id: 'hero' },
             { name: 'About', id: 'about' },
@@ -25,26 +25,29 @@ export default function Home() {
           ]}
         />
       </div>
-      <div id="hero" data-section="hero">
+      <div id="hero" data-section="hero" className="scroll-mt-24">
         <SplitHero
-          title="Welcome to NovaSuite"
+          title="Welcome to Subhadeep"
           subtitle="The futuristic approach to software solutions"
           primaryButtonText="Get Started"
           secondaryButtonText="Learn More"
         />
       </div>
-      <div id="about" data-section="about">
+      <div id="about" data-section="about" className="scroll-mt-24">
         <CtaAbout
-          title="What is NovaSuite?"
-          descriptions={["NovaSuite is a comprehensive SaaS product that aims to streamline your workflow.", "We bring technological innovation to your business processes."]}
+          title="What is Subhadeep?"
+          descriptions={[
+            "Subhadeep is a comprehensive SaaS product that aims to streamline your workflow.",
+            "We bring technological innovation to your business processes."
+          ]}
         />
       </div>
-      <div id="how-to-buy" data-section="how-to-buy">
+      <div id="how-to-buy" data-section="how-to-buy" className="scroll-mt-24">
         <HowToBuy2D
           variant="simple"
         />
       </div>
-      <div id="tokenomics" data-section="tokenomics">
+      <div id="tokenomics" data-section="tokenomics" className="scroll-mt-24">
         <NumberGridTokenomics
           title="Tokenomics"
           description="An overview of our token distribution and use cases."
@@ -55,28 +58,29 @@ export default function Home() {
           ]}
         />
       </div>
-      <div id="faq" data-section="faq">
+      <div id="faq" data-section="faq" className="scroll-mt-24">
         <CentralFAQ
           items={[
-            { title: 'What is NovaSuite?', content: 'NovaSuite is designed to improve efficiency across businesses.' },
-            { title: 'How can I start using NovaSuite?', content: 'Simply sign up on our website to begin.' },
+            { title: 'What is Subhadeep?', content: 'Subhadeep is designed to improve efficiency across businesses.' },
+            { title: 'How can I start using Subhadeep?', content: 'Simply sign up on our website to begin.' },
             { title: 'What payment methods are accepted?', content: 'We accept all major credit cards and PayPal.' },
             { title: 'Is there a free trial?', content: 'Yes, a 30-day free trial is available.' }
           ]}
         />
       </div>
-      <div id="footer" data-section="footer">
+      <div id="footer" data-section="footer" className="scroll-mt-24">
         <FooterBase
           logoSrc="/images/logo.svg"
           logoWidth={100}
           logoHeight={50}
           columns={[
-            { title: 'Products', items: [{ label: 'NovaSuite', onClick: () => {} }] },
+            { title: 'Products', items: [{ label: 'Subhadeep', onClick: () => {} }] },
             { title: 'Company', items: [{ label: 'About Us', onClick: () => {} }] },
             { title: 'Support', items: [{ label: 'Contact', onClick: () => {} }] }
           ]}
-          copyrightText="© 2023 NovaSuite. All rights reserved."
-          onPrivacyClick={() => {}}
+          copyrightText="© 2023 Subhadeep. All rights reserved."
+          onPrivacyClick={() => {}
+          }
         />
       </div>
     </SiteThemeProvider>
