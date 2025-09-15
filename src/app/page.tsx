@@ -14,7 +14,7 @@ export default function Home() {
     <SiteThemeProvider theme={{ styleVariant: "futuristicAndOutOfBox", colorTemplate: 1, textAnimation: "slide" }}>
       <div id="nav" data-section="nav">
         <NavbarStyleApple
-          brand="NovaSuite"
+          brandName="NovaSuite"
           navItems={[
             { name: 'Hero', id: 'hero' },
             { name: 'About', id: 'about' },
